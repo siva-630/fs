@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>lists</h1>
+    <p >order list</p>
+    <h1>
+    <ol type="1">
+        <li>apple</li>
+        <li>banana</li>
+        <li>cherry</li>
+    </ol>
+    
+    <ol type="A">
+        <li>cat</li>
+        <li>dog</li>
+        <li>rat</li>
+    </ol>
+    <ol type="a">
+        <li>lenovo</li>
+        <li>hp</li>
+        <li>apple</li>
+    </ol>
+    <ol type="I">
+        <li>sun</li>
+        <li>moon</li>
+        <li>earth</li>
+    </ol>
+    <ol type="i">
+        <li>car</li>
+        <li>bike</li>
+        <li>scooter</li>
+    </ol>
+    <h1>contol list counting
+    <ol start="20">
+        <li>milk</li>
+        <li>green tea</li>
+        <li>tea</li>
+    </ol>
+    <h1>nested list
+        <ol>
+            <li>apple</li>
+            <ol><li>red apple</li><li>green apple</li></ol>
+            <li>banana</li>
+            <ol><li>green mongo</li><li>yellow mango</li></ol>
+    </h1>
+    <h2>
+        <h2>unorder list
+        <ul>
+            <li>apple</li>
+            <li>banana</li>
+            <li>cherry</li>
+        </ul>
+        <ul style="list-style-type:circle">
+            <li>car</li>
+            <li>bike</li>
+            <li>scooter</li>
+        </ul>
+        <ul style="list-style-type:square">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+        <ul style="list-style-type: none;">
+            <li>mouse</li>
+            <li>phone</li>
+        </ul>
+        <p> nested list unorder</p>
+        <ul>
+            <li>apple</li>
+            <ol><li>green</li><li>red</li></ol>
+            <li>banana</li>
+            <ol><li>yellow</li><li>green</li></ol>
+        </ul>
+    </h2>
+    <h2>definition list</h2>
+    <dl> <dt>milk</dt></dl>
+    <dd>white color</dd>
+    <dl><dt>coffee</dt></dl>
+    <dd>black color</dd>
+    </body>
+</body>
+</html>
